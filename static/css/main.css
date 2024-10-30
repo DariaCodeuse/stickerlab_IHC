@@ -23,8 +23,61 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* funcionalidades */
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
 
-h1 {
-  font-family: var(--font-secondary);
-  font-weight: 700;
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: #f18789;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+
+.card h2 {
+  color: #d14245;
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  color: #d14245;
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* equipo perfil */
+.github-card {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  background-color: #89939e;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.github-info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+.github-info p {
+  margin: 0;
+  font-size: 12px;
+  color: #4d4d4d;
 }
